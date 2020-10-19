@@ -12,4 +12,5 @@ def encoder_app():
 
 
 if __name__ == '__main__':
-    encoder_app()
+    # encoder_app()
+    sqaure_ex()
