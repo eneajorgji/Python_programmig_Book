@@ -7,5 +7,19 @@ def username():
 
     print("Your username is: ", user_name_creation)
 
+
+def months():
+    months = "JanFebMarAprMayJunJulAugSepOctNovDec "
+
+    n = int(input("Enter a month number ( 1-12) : "))
+
+    pos = (n - 1) * 3
+
+    month_abbreviation = months[pos:pos + 3]
+
+    print("The month abbreviationis ", month_abbreviation + ".")
+
+
 if __name__ == '__main__':
     username()
+    months()
