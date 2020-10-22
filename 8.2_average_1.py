@@ -3,7 +3,7 @@ def average_number():
     total = 0.0
     for i in range(n):
         x = float(input("Enter a number: "))
-        total = total + x
+        total += x
 
     average = round(total / n, 2)
 
